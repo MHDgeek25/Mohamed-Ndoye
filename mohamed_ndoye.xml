@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE syllabus SYSTEM "syllabus.dtd">
+<exo>
+    <syllabus>
+        <!-- Élément mere cours-->
+        <cours>
+            <!-- Élément enfant Description_du_Cours -->
+            <Description_du_Cours>
+        
+                <intitule>Droit des tics</intitule>
+                <UE>6</UE>
+                <semestre>semestre 1</semestre>
+                <niveau>Master 1</niveau>
+                <prerequis></prerequis>
+                <!-- Élément enfant responsable -->
+                <responsable>
+                    <credits>6</credits>
+                    <Coefficient>2</Coefficient>
+                    <nb_Heures>20heures</nb_Heures>
+                </responsable>
+            </Description_du_Cours>
+             <!-- Élément enfant renseigment -->
+             <renseignement>
+                 <professeur>
+                    <prenom>
+                     Pierre Marc
+                  </prenom>
+                 <nom>
+                    Ndiaye
+                 </nom>
+                 <matricule>
+                 </matricule>
+                <adresse_Bureau>
+                    UFR_SET
+                </adresse_Bureau>
+                <mail>
+                    @univ-thie.sn
+                </mail>   
+                <heures>
+                    09h - 12h
+                </heures>
+                 </professeur>
+             </renseignement>
+        </cours>
+        
+    </syllabus>
