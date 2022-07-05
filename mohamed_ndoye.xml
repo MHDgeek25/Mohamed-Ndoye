@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE syllabus SYSTEM "syllabus.dtd">
+<!DOCTYPE syllabus SYSTEM "sMohamed_ndoye.dtd">
 <exo>
     <syllabus>
         <!-- Élément mere cours-->
@@ -8,10 +8,10 @@
             <Description_du_Cours>
         
                 <intitule>Droit des tics</intitule>
-                <UE>6</UE>
+                <UE>INF 415</UE>
                 <semestre>semestre 1</semestre>
                 <niveau>Master 1</niveau>
-                <prerequis></prerequis>
+                <prerequis>Ordinateurs</prerequis>
                 <!-- Élément enfant responsable -->
                 <responsable>
                     <credits>6</credits>
@@ -29,6 +29,7 @@
                     Ndiaye
                  </nom>
                  <matricule>
+                     998876
                  </matricule>
                 <adresse_Bureau>
                     UFR_SET
@@ -36,11 +37,15 @@
                 <mail>
                     @univ-thie.sn
                 </mail>   
-                <heures>
-                    09h - 12h
-                </heures>
+                <heure_Debut>
+                    09h
+                </heure_Debut>
+                     <heure_Fin>
+                         12h
+                         </heure_fin>
                  </professeur>
              </renseignement>
         </cours>
         
     </syllabus>
+</exo>
