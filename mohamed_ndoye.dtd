@@ -1,27 +1,27 @@
 <!Element cours (description,enseignant,info)>
 
 <!-- Bloc description -->
-<!Element description (UE,intitulé,cm,td,semetre,niveau,prerequis)>
-<!Element UE (#PCDATA)>
-<!Element intitulé (#PCDATA)>
-<!Element cm (#PCDATA)>
-<!Element td (#PCDATA)>
-<!Element semetre (#PCDATA)>
-<!Element niveau (#PCDATA)>
-<!Element prerequis (#PCDATA)>
+<!ELEMENT description (UE,intitulé,cm,td,semetre,niveau,prerequis)>
+<!ELEMENT UE (#PCDATA)>
+<!ELEMENT intitulé (#PCDATA)>
+<!ELEMENT cm (#PCDATA)>
+<!ELEMENT td (#PCDATA)>
+<!ELEMENT semetre (#PCDATA)>
+<!ELEMENT niveau (#PCDATA)>
+<!ELEMENT prerequis (#PCDATA)>
 <!ATTLIST description type CDATA  #REQUIRED>
 
 <!-- Bloc enseignant -->
-<!Element enseignant (prenom,nom,addresse_bur,courriel(email),heure_bur)>
-<!Element prenom (#PCDATA)>
-<!Element nom (#PCDATA)>
-<!Element addresse_bur (#PCDATA)>
-<!Element email (#PCDATA)>
-<!Element heure_bur (#PCDATA)>
+<!ELEMENT enseignant (prenom,nom,addresse_bur,courriel(email),heure_bur)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT addresse_bur (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT heure_bur (#PCDATA)>
 <!ATTLIST enseignant type CDATA  #REQUIRED>
 
 <!-- Bloc info -->
-<!Element info (salle,heure(debut,fin))>
-<!Element salle (#PCDATA)>
-<!Element debut (#PCDATA)>
-<!Element fin (#PCDATA)>
+<!ELEMENT info (salle,heure(debut,fin))>
+<!ELEMENT salle (#PCDATA)>
+<!ELEMENT debut (#PCDATA)>
+<!ELEMENT fin (#PCDATA)>
